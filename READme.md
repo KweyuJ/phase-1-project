@@ -27,6 +27,6 @@ db.json file: Submitting your own recipe to this json server allows users to upd
 # TECHNOLOGIES USED
 1.HTML
 2.CSS
-3.JAVA-SCRIPT
+3.Java Script
 4.GIT-HUB
 
