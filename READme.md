@@ -1,5 +1,3 @@
-
-
 # TITLE: Recipe Finder
 
 # AUTHOR: JOY KWEYU AYIEKO

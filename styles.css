@@ -169,3 +169,9 @@ ul {
     background-color:rgb(241, 161, 11);
     margin-top: 20px; 
 }
+#mode-toggle-button{
+  background-color:gray;
+  border-radius: 15%;
+  padding:auto;
+  margin-bottom: 1px;
+}
