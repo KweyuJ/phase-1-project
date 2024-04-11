@@ -13,7 +13,7 @@ Recipe Finder is a web application that allows users to search for recipes using
 *Submit Your Own Recipe to my local json server*: Users can submit their own recipes by filling out a form with the recipe name and instructions. Upon submission, the recipe is sent to the server using a POST request, and a success message is displayed to the user.
 
   # Usage
-To use Recipe Finder, follow these steps:
+To use Recipe Finder,follow these steps:
 
 Clone the repository to your local machine >
 Open the index.html file in your web browser >
