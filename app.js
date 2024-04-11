@@ -147,7 +147,7 @@ submitRecipeButton.addEventListener("click", function(event) {
       recipeInstructionsInput.value = "";
     })
     .catch(error => {
-      // Handle errors
+      // Error message
       console.error("Error submitting recipe:", error);
       alert("Error submitting recipe. Please try again later.");
     });
