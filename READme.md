@@ -15,8 +15,8 @@ Recipe Finder is a web application that allows users to search for recipes using
   # Usage
 To use Recipe Finder, follow these steps:
 
-Clone the repository to your local machine.
-Open the index.html file in your web browser.
+Clone the repository to your local machine >
+Open the index.html file in your web browser >
 Use the search bar to find recipes or submit your own recipe using the form provided.
   # Dependencies
 MealDB API: Recipe Finder relies on the MealDB API to fetch recipe data for display.
