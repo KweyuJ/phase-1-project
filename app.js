@@ -140,7 +140,7 @@ submitRecipeButton.addEventListener("click", function(event) {
       return response.json();
     })
     .then(data => {
-      // display a success message to the user
+      // Display a success message to the user
       alert("Recipe submitted successfully!");
       // Clear the form inputs
       recipeNameInput.value = "";
