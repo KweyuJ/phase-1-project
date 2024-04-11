@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RECIPE FINDER</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+  </head>
+  <body class="light-mode">
+    <section class="home" id="home">
+      <header>
+        <nav class="navigation">
+          <img src="my logo.jpg" alt="logo" class="logo" />
+          <ol>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#recipe">Our Recipes</a></li>
+            <li><a href="#submit-recipe">Submit your recipe</a></li>
+          </ol>
+        </nav>
+      </header>
+      <div class="container-home">
+        <div class="left-side">
+          <h1 class="text-heading">Welcome to Recipe Finder!</h1>
+          <p class="text">
+            Recipe Finder is a website with a crowd-sourced database of Recipes
+            from around the world.Our recipes are diverse and easy to make with
+            step by step instructions on how to do it.In addition to that you
+            can see the Region of the dish! <br />
+            <br />
+            We are always open for suggestions so feel free to send us your own
+            personalized recipe for anyone wanting to use it.
+          </p>
+        </div>
+        <div class="right-side">
+          <img
+            src="https://www.themealdb.com/images/media/meals/2dsltq1560461468.jpg"
+            alt=""
+            class="home-image"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="recipe-container" id="recipe">
+      <button id="mode-toggle-button">Switch to light/dark mode!</button>
+      <div class="search">
+        <span class="search-icon material-symbols-outlined"> search </span>
+        <input
+          class="search-input"
+          type="search"
+          placeholder="Type your meal name..."
+          id="user-input"
+        />
+        <button class="search-btn" id="searchbtn" type="submit">search</button>
+      </div>
+      <div id="result"></div>
+    </section>
+
+    <section class="submit-recipe" id="submit-recipe">
+      <h1>Submit Your Own Recipe</h1>
+      <form id="recipe-form">
+        <input
+          type="text"
+          id="recipe-name"
+          placeholder="Recipe Name"
+          required
+        />
+        <input
+          type="text"
+          id="recipe-instructions"
+          placeholder="Instructions"
+          required
+        />
+        <button id="submit-recipe-btn" type="submit">Submit Recipe</button>
+      </form>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>

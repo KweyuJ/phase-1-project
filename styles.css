@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  max-height: 100vh;
+}
+
+body.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+#home {
+  height: 100vh;
+  background-color: rgb(241, 161, 11);
+}
+
+#recipe {
+  height: 100vh;
+}
+
+
+
+header {
+  border-bottom: 3px solid #f1dca7;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  background-color: rgb(114, 75, 3);
+  justify-content: space-between;
+}
+
+.logo {
+  height: 50px;
+  width: auto;
+  border-radius: 15%;
+  padding: 0 10px;
+}
+
+ol {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  margin-right: 10%;
+}
+
+li a {
+  text-decoration: none;
+}
+
+.container-home {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  height: 100%;
+}
+
+.home-image {
+  height: 300px;
+  width: auto;
+}
+
+.left-side,
+.right-side {
+  
+  padding: 0 20px;
+}
+
+.home-image {
+  border-radius: 50%;
+  border: #eb6424 dotted 5px;
+}
+
+.text-heading {
+  color: #f35b04;
+  margin-bottom: 20px;
+  text-decoration-line: underline;
+}
+
+.text {
+  color: azure;
+}
+
+.recipe-container {
+  
+  font-size: 16px;
+  padding: 3em 2.8em;
+  width: 90vw;
+  max-width: 32em;
+  border-radius: 0.6em;
+  margin: 0 auto; 
+}
+
+.search {
+  width: max-content;
+  display: flex;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  border-radius: 28px;
+  background-color: rgb(247, 194, 98);
+}
+
+.search-input {
+  margin-left: 14px;
+  outline: none;
+  border: none;
+  background: transparent;
+}
+
+.search-btn {
+  border-color: white;
+  color: #eb6424;
+  width: max-content;
+  height: 30px;
+  border-radius: 10%;
+}
+
+.display-img {
+  display: block;
+  width: 200px;
+  height: auto;
+  border: 1px solid orange;
+}
+
+#recipe #instructions { 
+    background-color: rgb(228, 195, 11);
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    max-height: 200px; 
+    overflow-y: auto; 
+      
+}
+
+#show-recipe {
+  font-size: 1em;
+  padding: 0.9em 0.6em;
+  background-color: #f4c531;
+  border-radius: 0.3em;
+  font-weight: 600;
+}
+
+ul {
+  font-size: 1em;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 0.8em 1.1em;
+}
+
+#submit-recipe {
+    padding: 20px;
+    height: 100vh;
+    background-color:rgb(241, 161, 11);
+    margin-top: 20px; 
+}

@@ -1,0 +1,34 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Classic Spaghetti Bolognese",
+      "instructions": "1. Boil water in a large pot. Add spaghetti and cook until al dente. \n2. In a separate pan, heat olive oil. Add minced garlic and onion. Cook until softened. \n3. Add ground beef and cook until browned. Drain excess fat. \n4. Stir in tomato sauce, tomato paste, and Italian seasoning. Simmer for 15-20 minutes. \n5. Serve spaghetti topped with Bolognese sauce and grated Parmesan cheese."
+    },
+    {
+      "id": 2,
+      "name": "Pork Stir-Fry",
+      "instructions": "1. Slice your pork into thin strips. Marinate with soy sauce, ginger, and garlic for 30 minutes. \n2. Heat vegetable oil in a pan. Add chicken and stir-fry until cooked through. Remove from pan. \n3. In the same pan, add sliced bell peppers, onions, and broccoli. Stir-fry until vegetables are tender-crisp. \n4. Return your pork to the pan. Add some red wine and stir to combine. \n5. Serve hot over steamed rice."
+    },
+    {
+      "id": 3,
+      "name": "Margherita Pizza",
+      "instructions": "1. Preheat oven to 475°F (245°C). \n2. Roll out pizza dough on a floured surface to desired thickness. \n3. Transfer dough to a baking sheet or pizza stone. \n4. Spread tomato sauce evenly over the dough. Top with fresh mozzarella slices and basil leaves. \n5. Drizzle with olive oil and sprinkle with salt and pepper. \n6. Bake for 10-12 minutes, or until crust is golden and cheese is bubbly. \n7. Remove from oven, slice, and serve immediately."
+    },
+    {
+      "id": 4,
+      "name": "Beef Tacos",
+      "instructions": "1. Heat a skillet over medium-high heat. Add ground beef and cook until browned. Drain excess fat. \n2. Stir in taco seasoning and water. Simmer for 5-10 minutes, until sauce thickens. \n3. Warm taco shells in the oven or microwave according to package instructions. \n4. Assemble tacos with seasoned beef, shredded lettuce, diced tomatoes, shredded cheese, and any desired toppings. \n5. Serve hot with salsa and sour cream on the side."
+    },
+    {
+      "id": 5,
+      "name": "Vegetable Curry",
+      "instructions": "1. Heat vegetable oil in a large pot over medium heat. Add diced onion and cook until softened. \n2. Stir in curry paste and cook for 1-2 minutes, until fragrant. \n3. Add diced potatoes, carrots, and cauliflower florets to the pot. Stir to coat with curry paste. \n4. Pour in coconut milk and vegetable broth. Bring to a simmer and cook until vegetables are tender. \n5. Season with salt, pepper, and lime juice to taste. \n6. Serve hot over cooked rice or with naan bread."
+    },
+    {
+      "name": "Chapati",
+      "instructions": "1.Mix your dough thoroughly 2. Cover it and let it sit for 30mins 3.Roll it and divide it into chunks 4.Cook well on a pan with low heat",
+      "id": 6
+    }
+  ]
+}
