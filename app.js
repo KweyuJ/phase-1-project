@@ -1,4 +1,3 @@
-// My references
 
 const baseURL = "https://www.themealdb.com/api/json/v1/1/search.php?s=";
 let result = document.getElementById("result");
@@ -6,12 +5,12 @@ let searchBtn = document.getElementById("searchbtn");
 
 // Select the mode toggle button that will switch between dark and lightmode and define the function
 const modeToggleButton = document.getElementById("mode-toggle-button");
-function toggleMode() {
+function toggleEvent() {
   document.body.classList.toggle("light-mode");
   document.body.classList.toggle("dark-mode");
 }
 // Add event listener to the mode toggle button
-modeToggleButton.addEventListener("click", toggleMode);
+modeToggleButton.addEventListener("click", toggleEvent);
 
 // Add event listener to the search button
 searchBtn.addEventListener("click", () => {
