@@ -10,7 +10,7 @@ Recipe Finder is a web application that allows users to search for recipes using
 
 *Toggle Dark/Light Mode*: Users can switch between dark and light mode by clicking the mode toggle button. This feature provides a customizable user experience.
 
-*Submit Your Own Recipe*: Users can submit their own recipes by filling out a form with the recipe name and instructions. Upon submission, the recipe is sent to the server using a POST request, and a success message is displayed to the user.
+*Submit Your Own Recipe to my local json server*: Users can submit their own recipes by filling out a form with the recipe name and instructions. Upon submission, the recipe is sent to the server using a POST request, and a success message is displayed to the user.
 
   # Usage
 To use Recipe Finder, follow these steps:
