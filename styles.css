@@ -20,7 +20,6 @@ body.light-mode {
   color: #000000;
 }
 
-
 body.dark-mode {
   background-color: #121212;
   color: #ffffff;
@@ -34,8 +33,6 @@ body.dark-mode {
 #recipe {
   height: 100vh;
 }
-
-
 
 header {
   border-bottom: 3px solid #f1dca7;
