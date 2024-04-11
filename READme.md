@@ -1,6 +1,6 @@
 
 
-# Recipe Finder
+# TITLE: Recipe Finder
 Recipe Finder is a web application that allows users to search for recipes using the MealDB API and submit their own recipes to the server.
 
 # Features
