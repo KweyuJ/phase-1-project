@@ -9,7 +9,7 @@ function toggleEvent() {
   document.body.classList.toggle("light-mode");
   document.body.classList.toggle("dark-mode");
 }
-// Add event listener to the mode toggle button
+// Add event listener to the toggle button
 modeToggleButton.addEventListener("click", toggleEvent);
 
 // Add event listener to the search button
@@ -77,7 +77,7 @@ searchBtn.addEventListener("click", () => {
             parent.appendChild(child);
           });
 
-          // Added another event listener to hide recipe button
+          // Added another event listener to hide recipe button 
           hideRecipe.addEventListener("click", () => {
             let instructions = document.getElementById("instructions");
             if (
