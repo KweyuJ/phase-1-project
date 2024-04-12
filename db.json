@@ -34,6 +34,26 @@
       "name": "Chapati",
       "instructions": "1.Mix your dough thoroughly 2. Cover it and let it sit for 30mins 3.Roll it and divide it into chunks 4.Cook well on a pan with low heat",
       "id": 7
+    },
+    {
+      "name": "Traditional-matoke",
+      "instructions": "1.Peel your raw bananas 2.Cut into your desired pieces 3.Chop onions and tomatoes and fry in the oil 4.Add some water and let it boil till the water has reduced 5.Serve hot",
+      "id": 8
+    },
+    {
+      "name": "Fried eggs",
+      "instructions": "1.Beat your eggs in a dish 2. Add salt, black pepper and paprika 3. Put oil in your pan and add your egg mix 4. Cook for 5 minutes and serve hot",
+      "id": 9
+    },
+    {
+      "name": "Traditional-githeri",
+      "instructions": "1. Boil your beans and maize for 3hrs 2.Cut your onions and tomatoes 3.Put in the boiled mixture of beans and maize in a dish to cool 4.Fry your onions and tomatoes in a pan and add in the mixture 5.Garnish with spices of your choice and serve hot",
+      "id": 10
+    },
+    {
+      "name": "Rice",
+      "instructions": "1.Wash your rice 2.For every 1 cup of rice use 2 cups of water 3.Boil water and add salt together with some oil 4.Add your rice and cover it 5.Cook it on low heat for 25 minutes then serve hot",
+      "id": 11
     }
   ]
 }
