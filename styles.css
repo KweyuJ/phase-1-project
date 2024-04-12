@@ -172,3 +172,48 @@ ul {
   padding:auto;
   margin-bottom: 1px;
 }
+#submit-recipe {
+  padding: 40px;
+  background-color: #f1a10b;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#submit-recipe h1 {
+  color: #fff;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+#recipe-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#recipe-form input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: none;
+}
+
+#recipe-form input[type="text"]:focus {
+  outline: none;
+  border: 2px solid #eb6424;
+}
+
+#submit-recipe-btn {
+  background-color: #eb6424;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#submit-recipe-btn:hover {
+  background-color: #ff7f2a;
+}
