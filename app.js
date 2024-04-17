@@ -52,30 +52,9 @@ searchBtn.addEventListener("click", () => {
           </div> 
           `;
 
-          let parent = document.createElement("ul");
-          let recipe = document.getElementById("recipe");
           let hideRecipe = document.getElementById("hide-recipe");
 
-          // Loop through ingredients
-          let count = 1;
-          let ingredients = [];
-          for (const i in myMeal) {
-            let ingredient = "";
-            let measure = "";
-            if (i.startsWith("strIngredient") && myMeal[i]) {
-              ingredient = myMeal[i];
-              measure = myMeal[`strMeasure` + count];
-              count += 1;
-              ingredients.push(`${measure} ${ingredient}`);
-            }
-          }
-
-          // Append ingredients to the list
-          ingredients.forEach((i) => {
-            let child = document.createElement("li");
-            child.innerText = i;
-            parent.appendChild(child);
-          });
+          
 
           // Added another event listener to hide recipe button 
           hideRecipe.addEventListener("click", () => {
